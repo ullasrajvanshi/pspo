@@ -1,0 +1,156 @@
+[
+ {
+  "id": "T1Q3",
+  "book_answer": "A",
+  "correct_answer": "F",
+  "confidence": "high",
+  "reason": "To maximize value, a Product Owner needs awareness of all the listed inputs: customer feedback, forecasting and feasibility, product vision, and competitive research. This is a well-known Scrum.org-style item and its intended answer is 'All of the above'. Customer feedback alone is too narrow."
+ },
+ {
+  "id": "T1Q4",
+  "book_answer": "C",
+  "correct_answer": "B",
+  "confidence": "high",
+  "reason": "The cone of uncertainty shows that the further out a forecast reaches, the less certain it is. Its message is that you cannot reliably fix a project's cost before work begins, which is the opposite of option C."
+ },
+ {
+  "id": "T1Q18",
+  "book_answer": "B",
+  "correct_answer": "D",
+  "confidence": "high",
+  "reason": "Scrum Guide 2020 says those who want to change the Product Backlog can do so by trying to convince the Product Owner. So John may make a request, and Selena considers it and has the final say on ordering. The book's own explanation argues for D, not B."
+ },
+ {
+  "id": "T1Q29",
+  "book_answer": "D",
+  "correct_answer": "B",
+  "confidence": "high",
+  "reason": "The Product Owner is accountable for maximizing the value of the product (Scrum Guide 2020), and Scrum.org's PSPO teaching consistently says the Product Owner decides whether and when to release an Increment. The 2020 Guide removed the explicit wording but did not move the decision to the whole Scrum Team, so the book's claim that it did is not Scrum.org teaching."
+ },
+ {
+  "id": "T1Q54",
+  "book_answer": "B, C",
+  "correct_answer": "B",
+  "confidence": "medium",
+  "reason": "As written, option C ('a Sprint can proceed without Backlog') is false: Sprint Planning produces the Sprint Backlog (Sprint Goal + selected PBIs + plan), and the Sprint cannot proceed without it (Scrum Guide 2020, Sprint Planning/Sprint Backlog). The book's explanation describes an emergent Sprint Backlog, so the source option was probably 'without a complete/fully detailed Sprint Backlog'; if that text is restored, B, C would be correct and the fix belongs in the option text rather than the key."
+ },
+ {
+  "id": "T1Q60",
+  "book_answer": "C",
+  "correct_answer": "B",
+  "confidence": "high",
+  "reason": "The Scrum Master takes part in the Sprint Retrospective as a peer member of the Scrum Team (Scrum Guide 2020: 'The Scrum Team inspects...'). The book's own explanation says 'participates as a peer team member', which is option B, not 'None of the above'."
+ },
+ {
+  "id": "T1Q73",
+  "book_answer": "B, D",
+  "correct_answer": "B",
+  "confidence": "medium",
+  "reason": "Scrum Guide 2020 says the Daily Scrum is an event for the Developers, so attending every Daily Scrum to answer questions is not a typical Product Owner duty. Option D therefore contradicts the Guide. The usual second answer, working with the Developers on Product Backlog refinement, is missing from this version, so only B is defensible; the question is flawed."
+ },
+ {
+  "id": "T2Q15",
+  "book_answer": "A, B",
+  "correct_answer": "A, D",
+  "confidence": "high",
+  "reason": "Fully specifying every Product Backlog item up front is the waste this question is about. Refinement adds detail just in time, so higher-ordered items are clearer and lower-ordered ones stay coarse. The Product Owner owns the Product Backlog's content and can remove stale items, which is a lean way to cut waste."
+ },
+ {
+  "id": "T2Q17",
+  "book_answer": "A, B, D",
+  "correct_answer": "B, D",
+  "confidence": "high",
+  "reason": "Option A is false. Non-functional requirements can be Product Backlog items, and the Product Backlog is the single source of work undertaken by the Scrum Team (Scrum Guide 2020). They are not limited to the Sprint Backlog. The correct options are B (built into every Increment) and D (some go in the Definition of Done)."
+ },
+ {
+  "id": "T2Q26",
+  "book_answer": "A, B, D",
+  "correct_answer": "C",
+  "confidence": "high",
+  "reason": "The question asks which option is NOT a pillar and wants one answer. Transparency, inspection and adaptation are the three pillars, and empiricism is the theory they support (Scrum Guide 2020, Scrum Theory). The key lists the three pillars instead of the one non-pillar."
+ },
+ {
+  "id": "T2Q30",
+  "book_answer": "F",
+  "correct_answer": "B, F",
+  "confidence": "medium",
+  "reason": "The Scrum Guide 2020 says the Scrum Team is responsible for all product-related activities, starting with stakeholder collaboration, and the Scrum Team presents its results to key stakeholders at the Sprint Review. So 'The Scrum Team engages the stakeholders' is correct alongside 'cross-functional'. The question gives no answer count, so keying only F leaves out a correct statement."
+ },
+ {
+  "id": "T2Q46",
+  "book_answer": "A",
+  "correct_answer": "B",
+  "confidence": "high",
+  "reason": "The Scrum Guide 2020 says Scrum Teams are cross-functional, meaning the members together have all the skills needed. Individual Developers do not each have to be cross-functional. The book's own explanation says this ('cross-functional as a team, but not individually') and so contradicts its keyed answer of True."
+ },
+ {
+  "id": "T2Q57",
+  "book_answer": "D",
+  "correct_answer": "C",
+  "confidence": "medium",
+  "reason": "The scenario quotes the third part of the Nexus Sprint Retrospective from the 2018 Nexus Guide: representatives meet again to agree how to visualize and track the identified actions. That makes C the answer. Saying the activity 'does not relate' to the Nexus Sprint Retrospective (D) is wrong under any version of the Nexus Guide."
+ },
+ {
+  "id": "T4Q33",
+  "book_answer": "B",
+  "correct_answer": "A",
+  "confidence": "medium",
+  "reason": "Taken as a group, the Developers must have all the skills needed to create a usable Increment that meets the Definition of Done each Sprint. The Scrum Guide 2020 says Scrum Teams are cross-functional and the 2017 Guide said Development Teams are cross-functional. The book's key contradicts its own T4Q45 (where 'All Developers' means individuals), T4Q61 and T4Q74, which all treat the Developers as cross-functional."
+ },
+ {
+  "id": "T4Q40",
+  "book_answer": "A, B, D",
+  "correct_answer": "C",
+  "confidence": "high",
+  "reason": "This is a corrupted version of the well-known question 'Who should know the MOST about progress toward a business objective or a release, and be able to explain the alternatives most clearly?', whose answer is the Product Owner. The PO is accountable for maximizing value and managing the Product Backlog (Scrum Guide 2020). As written, the stem contradicts itself, and keying three answers to a single-answer question is wrong. A Project Manager is not a Scrum role in any case."
+ },
+ {
+  "id": "T4Q62",
+  "book_answer": "D",
+  "correct_answer": "A, D",
+  "confidence": "medium",
+  "reason": "Same question as Mock Test 2, Q30, with the same flaw. The Scrum Guide 2020 makes the Scrum Team responsible for all product-related activities, starting with stakeholder collaboration, so 'Engages the stakeholders' is correct alongside 'Is self-managed'. The question gives no answer count, so keying only D leaves out a correct statement."
+ },
+ {
+  "id": "T6Q48",
+  "book_answer": "B, D",
+  "correct_answer": "C, F",
+  "confidence": "medium",
+  "reason": "The real problem is that the Definition of Done is not shared or transparent. The Scrum Guide 2020 says the Scrum Master coaches the team in self-management and that the Scrum Team must share an understanding of Done. So the best actions are to coach the whole team to settle the disagreement themselves and agree one clear Definition of Done (F, with C close behind). B and D are generic reminders that leave the ambiguity in place, and nothing in the scenario says the conflict has turned personal."
+ },
+ {
+  "id": "T6Q68",
+  "book_answer": "B, C",
+  "correct_answer": "C",
+  "confidence": "medium",
+  "reason": "The question asks for reasons the Scrum Master would attend the Daily Scrum. B ('It's not necessary for the Scrum Master to be in the meeting') is true but is not a reason to attend, so it does not answer the question. The valid reason is facilitating when the Developers ask for it (C). Under the Scrum Guide 2020, the Scrum Master also takes part as a Developer if they are actively working on Sprint Backlog items."
+ },
+ {
+  "id": "T6Q74",
+  "book_answer": "A, C, D",
+  "correct_answer": "C",
+  "confidence": "high",
+  "reason": "The question asks for the single 'most productive way', but the key gives three answers. Option D ('Monitor their communication performance') is surveillance, not coaching, and goes against the Scrum Master's servant-leadership role. The Scrum Guide 2020 has the Scrum Master coach and teach so the team self-manages and works directly with the Product Owner, so the answer is teaching them to communicate effectively (C)."
+ },
+ {
+  "id": "T7Q27",
+  "book_answer": "B",
+  "correct_answer": "A",
+  "confidence": "medium",
+  "reason": "The 2020 Scrum Guide says the Daily Scrum is for the Developers, but 'If the Product Owner or Scrum Master are actively working on items in the Sprint Backlog, they participate as Developers.' So a Scrum Master can participate. The book's own explanation for T7Q63 says the same thing."
+ },
+ {
+  "id": "T7Q40",
+  "book_answer": "B, C",
+  "correct_answer": "B, D",
+  "confidence": "high",
+  "reason": "Options B and C are two halves of one statement that got split across lines ('Velocity may unexpectedly drop when Developers run into technical debt...'). The key B, C therefore marks a single option and leaves out D, which is the other correct statement: a team can artificially increase velocity by taking on technical debt. Treat B+C as one option and pair it with D."
+ },
+ {
+  "id": "T7Q41",
+  "book_answer": "C, D, E",
+  "correct_answer": "D",
+  "confidence": "medium",
+  "reason": "The 2020 Scrum Guide says Developers decide how much to select based on past performance, upcoming capacity and the Definition of Done. That matches D, the combination of velocity and capacity. Velocity alone (C) is incomplete, and maximizing value (E) is the Product Owner's accountability through ordering, not how Developers size the forecast. The question also doesn't say how many answers to pick, yet the key has three."
+ }
+]

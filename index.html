@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Professional Scrum Product Owner I – Practice Assessment</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <span class="brand-mark">PSPO I</span>
+      <span class="brand-title">Professional Scrum Product Owner&trade; I – Practice Assessment</span>
+    </div>
+    <div class="timer hidden" id="timer" aria-live="polite">
+      <span class="timer-label">Time remaining</span>
+      <span class="timer-value" id="timer-value">30:00</span>
+    </div>
+  </header>
+
+  <main id="app">
+    <!-- Start screen -->
+    <section id="screen-start" class="screen card">
+      <h1>Professional Scrum Product Owner&trade; I</h1>
+      <p class="subtitle">Practice Assessment</p>
+      <table class="details">
+        <tr><th>Number of questions</th><td id="detail-count">40</td></tr>
+        <tr><th>Time limit</th><td>30 minutes</td></tr>
+        <tr><th>Passing score</th><td>85%</td></tr>
+        <tr><th>Format</th><td>Multiple Choice, Multiple Answer and True/False</td></tr>
+        <tr><th>Question pool</th><td id="detail-pool"></td></tr>
+      </table>
+      <h2>Instructions</h2>
+      <ul class="instructions">
+        <li>Questions are drawn at random from the exam-prep question bank each time you start.</li>
+        <li>Questions with a round button have one correct answer. Questions with square checkboxes may have more than one; you must select every correct option to get the point.</li>
+        <li>You can move between questions and bookmark any you want to come back to before you submit.</li>
+        <li>When the timer reaches zero, the assessment is submitted automatically.</li>
+        <li>At the end you'll see every question with your answer, the correct answer and the explanation.</li>
+      </ul>
+      <div id="resume-box" class="resume hidden">
+        <p>You have an assessment in progress.</p>
+        <button class="btn btn-primary" id="btn-resume">Resume assessment</button>
+      </div>
+      <button class="btn btn-primary btn-lg" id="btn-start">Start Assessment</button>
+    </section>
+
+    <!-- Exam screen -->
+    <section id="screen-exam" class="screen hidden">
+      <div class="exam-layout">
+        <div class="card question-card">
+          <div class="question-head">
+            <span class="question-counter" id="q-counter">Question 1 of 40</span>
+            <label class="bookmark">
+              <input type="checkbox" id="q-bookmark"> Bookmark for review
+            </label>
+          </div>
+          <p class="question-text" id="q-text"></p>
+          <p class="question-hint" id="q-hint"></p>
+          <div class="options" id="q-options"></div>
+          <div class="nav-buttons">
+            <button class="btn" id="btn-prev">&larr; Previous</button>
+            <button class="btn btn-primary" id="btn-next">Next &rarr;</button>
+          </div>
+        </div>
+
+        <aside class="card navigator">
+          <h3>Questions</h3>
+          <div class="nav-grid" id="nav-grid"></div>
+          <div class="legend">
+            <span><i class="dot answered"></i>Answered</span>
+            <span><i class="dot bookmarked"></i>Bookmarked</span>
+            <span><i class="dot"></i>Not answered</span>
+          </div>
+          <p class="progress" id="progress-text"></p>
+          <button class="btn btn-submit" id="btn-submit">Submit Assessment</button>
+        </aside>
+      </div>
+    </section>
+
+    <!-- Results screen -->
+    <section id="screen-results" class="screen hidden">
+      <div class="card result-summary">
+        <div id="result-badge" class="result-badge"></div>
+        <div class="score-grid">
+          <div><span class="score-big" id="res-score"></span><span class="score-label">Score</span></div>
+          <div><span class="score-big" id="res-correct"></span><span class="score-label">Correct answers</span></div>
+          <div><span class="score-big" id="res-time"></span><span class="score-label">Time taken</span></div>
+        </div>
+        <p class="pass-note">Passing score: 85% (34 of 40)</p>
+        <div class="result-actions">
+          <button class="btn btn-primary" id="btn-retake">Take a new assessment</button>
+        </div>
+      </div>
+
+      <div class="filters">
+        <span>Show:</span>
+        <button class="chip active" data-filter="all">All</button>
+        <button class="chip" data-filter="incorrect">Incorrect</button>
+        <button class="chip" data-filter="correct">Correct</button>
+        <button class="chip" data-filter="bookmarked">Bookmarked</button>
+      </div>
+      <div id="review-list"></div>
+    </section>
+  </main>
+
+  <!-- Confirm dialog -->
+  <div class="modal hidden" id="modal">
+    <div class="modal-box card">
+      <h3>Submit assessment?</h3>
+      <p id="modal-text"></p>
+      <div class="modal-actions">
+        <button class="btn" id="modal-cancel">Return to questions</button>
+        <button class="btn btn-submit" id="modal-confirm">Submit</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="questions.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
